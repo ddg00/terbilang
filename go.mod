@@ -1,4 +1,4 @@
-module github.com/pyrotag/terbilang
+module github.com/ddg00/terbilang
 
 go 1.15
 
