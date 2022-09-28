@@ -1,5 +1,5 @@
-module github.com/pyrotag/terbilang
+module github.com/ddg00/terbilang
 
 go 1.15
 
-require github.com/stretchr/testify v1.6.1
+require github.com/stretchr/testify v1.8.0
