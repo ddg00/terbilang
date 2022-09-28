@@ -1,5 +1,7 @@
 # Terbilang
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/pyrotag/terbilang)](https://pkg.go.dev/github.com/pyrotag/terbilang)
+[![Go Reference](https://pkg.go.dev/badge/github.com/ddg00/terbilang.svg)](https://pkg.go.dev/github.com/ddg00/terbilang)
+
+This repository forked from https://github.com/pyrotag/terbilang
 
 Golang library to convert Number to Word in Bahasa/Indonesia.
 
@@ -8,13 +10,13 @@ This repository inspiration is based from https://github.com/develoka/angka-terb
 ## Install
 
 ```
-go get -u github.com/pyrotag/terbilang
+go get -u github.com/ddg00/terbilang
 ```
 
 ## Usage 
 ```
 import (
-    terbilang "github.com/pyrotag/terbilang"
+    terbilang "github.com/ddg00/terbilang"
 )
 
 wordResultFromString := terbilang.FromString{"1999"}.ToWord()
